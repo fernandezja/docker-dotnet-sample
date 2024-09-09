@@ -6,5 +6,15 @@
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
+    <h2>@Model.OperatingSystemNameAndVersion</h2>
+    <h3>@Model.OperatingSystem.VersionString  <br />
+        @Model.OperatingSystem.Version   <br />
+        @Model.OperatingSystem.ServicePack   <br />
+
+        @Model.OperatingSystem.Platform  <br />
+
+    </h3>
+
+    
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
